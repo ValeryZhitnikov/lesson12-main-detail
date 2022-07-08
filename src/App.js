@@ -9,7 +9,7 @@ function App({ store }) {
     <>
       <Provider store={store}>
         <Routes>
-          <Route path="/:id/details" element={<Detail />} />
+          <Route path="/details/:sId" element={<Detail />} />
           <Route path="/" element={<MainList />} />
         </Routes>
       </Provider>
